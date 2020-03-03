@@ -1,0 +1,18 @@
+
+* edar
+
+This package extends the [[https://github.com/melff/memisc][memisc]] package to make it tidy data friendly.
+
+
+* Instalation
+
+# Install the development version (requires the package "devtools", so install it first if it is not installed already)
+
+#+BEGIN_SRC R :exports code
+devtools::install_github("DiogoFerrari/memisc2")
+# If you don't want to update the dependencies, use: (you may need to install some dependencies manually)
+devtools::install_github("DiogoFerrari/memisc2", dependencies=F)
+
+#+END_SRC
+
+
